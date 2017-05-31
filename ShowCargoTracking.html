@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+    <script src="../../jquery.js" type="text/javascript"></script>
+    <link href="../../CSS/Template.css" rel="stylesheet" type="text/css" />
+    <link href="../../themes/default/om-slider.css" rel="stylesheet" type="text/css" />
+    <link href="../../common/css/demo.css" rel="stylesheet" type="text/css" />
+    <script src="../../operamasks-ui-2.0/js/operamasks-ui.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="../../themes/apusic/om-all.css" />
+    <script type="text/javascript">
+
+        $(function () {
+
+            $("#name").val("账号");
+            $("#pwd").val("密码");
+            $("#li_left").addClass("leftfirst");
+            $("#li_left").addClass("GoosidongColor");
+            $("#li_right").addClass("GoosidongColor");
+            $("#li_left").click(function () {
+
+                $("#dongleft").show();
+                $("#dongright").hide();
+                $("#li_left").addClass("leftfirst");
+                $("#li_right").removeClass("leftfirst");
+
+                $("#right_a").css('color', 'black');
+                $("#left_a").css('color', 'White');
+            })
+
+            $("#li_right").click(function () {
+
+                $("#dongright").show();
+                $("#dongleft").hide();
+                $("#li_right").addClass("leftfirst");
+                $("#li_left").removeClass("leftfirst");
+                //$("#li_left").addClass("reamd");
+                $("#left_a").css('color', 'black');
+                $("#right_a").css('color', 'White');
+            })
+
+
+            $('#vip').mouseover(function () {
+                $(this).attr({ src: "../../images/yLoginVip.png" });
+            }).mouseout(function () {
+                $(this).attr({ src: "../../images/login.png" });
+            });
+
+
+            $("#LoginVIP").submit(function () {
+                var name = $("#name").val();
+                var pwd = $("#pwd").val();
+                if (name != "账号" && pwd != "密码") {
+                    return true;
+                } else {
+                    $("#showTiS").text("请账号密码不能为空");
+                    return false;
+                }
+            });
+
+
+        })
+
+
+
+        //网点  光标获取时候，  光标离开的时候
+        function clearNameText(obj, type) {
+            if (type == "name") {
+                if (obj == "true") {
+
+                    $("#name").val("");
+                    $("#name").css('color', 'black');
+                    return;
+                } else {
+                    if ($("#name").val() == "") {
+                        $("#name").val("账号");
+                        $("#name").css('color', '#ABADB3');
+                        return;
+                    }
+                }
+                $("#name").val($("#name").val());
+            } else {
+
+                if (obj == "true") {
+                    $("#pwd").css('type', 'password');
+                    $("#pwd").val("");
+                    $("#pwd").css('color', 'black');
+                    return;
+                } else {
+                    if ($("#pwd").val() == "") {
+                        $("#pwd").val("密码");
+                        $("#pwd").css('color', '#ABADB3');
+
+                        return;
+                    }
+                }
+                $("#pwd").val($("#pwd").val());
+            }
+        }
+
+
+
+        $(function () {
+
+            $("#dialog-modal").omDialog({
+                autoOpen: false,
+                height: 140,
+                modal: true,
+                resizable: false
+            });
+
+            // 单击网点维护时候跳出dialog登陆窗口
+            $("#showHome").click(function () {
+                $("#dialog-modal").omDialog('open');
+            })
+
+            //取消
+            $("#LNo").click(function () {
+                $("#dialog-modal").omDialog('close');
+            })
+            //登陆
+            $("#LYs").click(function () {
+
+                $.ajax({
+                    type: "post",
+                    url: '/DefaultHome/LoginEditDept',
+                    data: {
+                        name: $("#wLname").val(),
+                        pwss: $("#wLPwss").val()
+                    },
+                    async: true,
+                    success: function (data) {
+                        if (data == "yes") {
+                            $("#mess").text("");
+                            window.location.href = "EditXandYView"; //"～/DefaultHome/EditXandYView";
+                            //@Url.Action("EditXandYView");
+                        } else {
+
+                            $("#mess").text(data);
+                        }
+                    }
+                });
+
+            })
+
+
+
+        })
+
+    
+    </script>
+</head>
+<body>
+    
+    <div class="container">
+        <div id="WebHeaderTop">
+            <div id="logo">物流信息跟踪平台</div>
+            
+            <ul id="top_ui" style="margin: 0px; padding: 0px;">
+                <li><a href="">首页</a></li>
+                
+                <li><a href="/DefaultHome/ShowCargoTracking">货物查询</a></li>
+                <li><a href="/DefaultHome/SearchDept">网点查询</a></li>
+                <li style="margin-left: 100px; padding: 0px; height: 95%; padding-top: 60px; width: 220px;
+                    text-align: right;"><a></a></li>
+            </ul>
+        </div>
+        <div id="Content" style="margin-top: 5px;">
+            
+            <div id="ContentRight">
+            <link href="../../CSS/ShowCargoTracking.css" rel="stylesheet" type="text/css" />
+<script src="../../js/ShowDefaultHome.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+    //点击清除按钮时候
+    $(function () {
+        //        $("#submit").submit(function () {
+        //            alert("dd");
+        //            if (checkform()) {
+        //            }
+        //        });
+        $("#myForm").submit(function () {
+            if (checkform()) {
+                return true;
+            } else {
+                return false;
+            }
+        });
+
+        $("#clear").click(function () {
+            $.ajax({
+                type: "post",
+                url: '/DefaultHome/clearSession',
+                success: function (data) {
+                    $("#dib").text('');
+                    $("#dib").val('');
+                    $("#dib").html('');
+                }
+
+            })
+
+        })
+    })
+ 
+</script>
+<br />
+<span>货物追踪</span>
+<form method="post"  id="myForm" action="/DefaultHome/ShowCargoTracking" >
+<div id="seachYdNo">
+    <div style="float: left;">
+        <textarea rows="10" cols="17" id="ydNo" onblur="clearText('false')" name="ydno" onfocus="clearText('true')"
+            style="height: 90px; width: 270px; resize: none; border: 1px solid #CDCCCC; color: #CDCCCC;
+            margin-right: 10px;">请输入运单号，批量查询请用逗号隔开</textarea>
+        <br />
+        <input type="image" src="../../images/subimtBtn.jpg" id="submit" />
+         <span style=" color:Red; padding-left:15px; font-size:15px;" id="huowtishi"></span>
+    </div>
+    <label>
+        最近查询记录</label>   <a  style="  margin-left:200px; font-size:15px;   " id ="clear">清除记录</a>
+    <div style="height: 85%; width: 55.5%;  color:Black; font-size:13px;  float: right;" id="dib" >
+        <a  style=" color:black;" href=""></a>
+    </div>
+</div>
+</form>
+<div id="show">
+    <label>
+        货物追踪结果</label><br />
+    <br />
+        <br /> <br />
+        <img src="../../images/cha.png" />
+        <lable stype=" font-size:12px;">未找到运单号为  <span style=" color:Red;"> </span> 的追踪信息，请检查单号是否正确！
+</lable>
+</div>
+
+ 
+            </div>
+        </div>
+        <div id="footer">
+             物流信息跟踪平台
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+@charset "utf-8";
+#conss {background: url(con_top.png) no-repeat scroll 0 0 transparent;overflow: hidden;padding-top: 31px;width: 128px;}
+#conss .listss {background: url(con_bg.gif) repeat-y scroll 0 0 transparent;font-family: Arial,Helvetica,sans-serif;font-size: 12px;overflow: hidden; padding: 0 5px;position: relative;}
+#conss .listss .contactss {background: url(title_bg.gif) repeat-x scroll 0 0 transparent;padding: 5px 2px;}
+.contactss {clear: both;color: #8F8F8F;line-height: 25px;margin-top: 5px;}
+#conss .listss .contactss .qq, #conss .list .contactss .msn {color: #666666;display: block;height: 24px;padding: 5px 0 0 7px;text-align: left;text-decoration: none;width: 107px;}
+#conss .qq1,{color: #666666;display: block;height: 24px;padding: 5px 0 0 14px;text-align: left;text-decoration: none;width: 107px;}
