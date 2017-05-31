@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="add1ccb4-b143-4d4c-82a9-2395f6ea072d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plug-in:provinceCity/css/cityLayout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plug-in:provinceCity/css/global.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plug-in:provinceCity/css/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plug-in:provinceCity/css/print.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plug-in:provinceCity/img/tosn_smallbtn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plug-in:provinceCity/img/ts-city.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plug-in:provinceCity/img/ts-indexbottom.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plug-in:provinceCity/img/ts-indexcity.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plug-in:provinceCity/img/ts-indexscenter.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plug-in:provinceCity/img/ts-indexsleft.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plug-in:provinceCity/img/ts-indexsright.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plug-in:provinceCity/img/ts-zcity.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plug-in:provinceCity/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plug-in:provinceCity/js/jquery-1.6.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plug-in:provinceCity/js/public.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plug-in:provinceCity/js/validateInputCityName.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads:2014:8:_source/033059_57.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads:2014:8:_source/112638_19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads:2014:8:_source/112655_77.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads:2014:8:_source/112703_73.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companyAbout.html" afterPath="$PROJECT_DIR$/companyAbout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contactus.html" afterPath="$PROJECT_DIR$/contactus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productAbout.html" afterPath="$PROJECT_DIR$/productAbout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transport.html" afterPath="$PROJECT_DIR$/transport.html" />
-    </list>
+    <list default="true" id="add1ccb4-b143-4d4c-82a9-2395f6ea072d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -266,12 +240,12 @@
       <option name="presentableId" value="Default" />
       <updated>1495871852265</updated>
       <workItem from="1495871855617" duration="2091000" />
-      <workItem from="1496239523557" duration="1193000" />
+      <workItem from="1496239523557" duration="1263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3284000" />
+    <option name="totallyTimeSpent" value="3354000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
