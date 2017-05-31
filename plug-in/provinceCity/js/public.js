@@ -191,7 +191,7 @@ jQuery.cookie = function(name, value, options) {
 // function addFavorite() 
 // { 
 //	 var sURL="";
-//	 var sTitle="中源物流官方网站";
+//	 var sTitle="立群物流官方网站";
 //     try 
 //     { 
 //         window.external.addFavorite(sURL, sTitle); 
@@ -215,7 +215,7 @@ jQuery.cookie = function(name, value, options) {
 //	var b_version=$.browser.version;
 //	if(browser && b_version=="6.0")
 //	{
-//	    $(".main-contentXX ").before("<div class='Ieinfo'><a href='http://windows.microsoft.com/zh-CN/internet-explorer/downloads/ie-8'>是否升级浏览器的版本，以更好的体验中源物流提供的服务?</a><a  class='ico m_close' href='javascript:void(0)'>X</a></div>");
+//	    $(".main-contentXX ").before("<div class='Ieinfo'><a href='http://windows.microsoft.com/zh-CN/internet-explorer/downloads/ie-8'>是否升级浏览器的版本，以更好的体验立群物流提供的服务?</a><a  class='ico m_close' href='javascript:void(0)'>X</a></div>");
 //	}
 //	$(".m_close").click(function(){
 //		$(".Ieinfo").remove();
