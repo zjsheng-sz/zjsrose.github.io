@@ -1,0 +1,107 @@
+span
+{
+    font-size: 18px;
+    color: #3F3B67;
+}
+#seachYdNo
+{
+    border-top: 2px solid;
+    border-bottom: 1px solid #CDCCCC;
+    background-color: #F0F0F4;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+h4
+{
+    font-size: 13px;
+    color: #3F3B67;
+    padding:0 0 0 20px;
+	float:left;
+	
+
+}
+h5
+{
+    font-size: 13px;
+    padding:0 0 0 20px;
+	background:#efefef;
+	font-weight:100;
+	margin-top:10px;
+	line-height:30px;
+
+}
+#show
+{
+    margin-top: 30px;
+}
+#oneRow
+{
+    width: 96%;
+    height: 25px;
+    background-color: #EFEFEF;
+    text-align: center;
+}
+table tr td
+{
+    height: 25px;
+    padding-left: 30px;
+	border-bottom:1px #ccc dashed;
+}
+table
+{
+    width: 100%;
+    font-size: 12px;
+    margin:0 auto;
+}
+.logList
+{
+    height:100px;
+}
+.logList li
+{
+    line-height: 25px;
+    padding-left: 20px;
+}
+
+#seachYdNo .clear1
+{
+    text-align:right;
+    cursor:pointer;
+    display:block;
+    padding-right:20px;
+}
+#seachYdNo .clear1:hover
+{
+    text-decoration:underline;
+}
+#seachYdNo .seach{
+	width:270px;
+	float:left;
+}
+.notfoundYdNo
+{
+	width:500px;
+	margin:20px auto 0 auto;
+	height:63px;
+	padding-left:50px;
+	line-height:63px;
+	background:url(../images/cha.png) no-repeat left top;
+}
+
+a.tag
+{
+    margin:0 1px;
+    padding:2px;
+    color:Black;
+    text-decoration:none;
+}
+a.tag:hover,a.tag_index
+{
+    background:#dbcfa4;
+}
+#mian
+{
+    overflow:auto;
+    position:relative;
+}

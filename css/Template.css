@@ -1,0 +1,279 @@
+.container
+{
+    width: 1003px;
+    margin: 0 auto;
+    background: #fff;
+}
+#WebHeaderTop
+{
+    width: 1003px;
+    height: 97px;
+    margin: 0 auto;
+    background-color: #0072BB;
+}
+#logo
+{
+    line-height:97px;
+    padding-left:20px;
+    font-size:22px;
+    color:#fff;
+    float:left;
+    font-weight:bold;
+}
+#Content
+{
+    margin: 0 auto;
+    position:relative;
+}
+#Contentleft
+{
+    width: 22%;
+    height: 100px;
+    margin: 0px;
+    float: left;
+    margin-right: 0px;
+}
+#ContentRight
+{
+    width: 100%;
+    margin: 0px;
+
+}
+#ContentLetLogin
+{
+    height: 215px;
+    width: 100%;
+    background-color: #F2F2F2;
+    margin-left: 8px;
+}
+
+#ul_img改
+{
+    background-image: url(../images/title.png);
+}
+
+#ul_lianjie_img改
+{
+    background-image: url(../images/caoliaojie.png);
+}
+#ContentLetLogin #pwd, #name
+{
+    border: 1px solid #D6D6D6;
+    margin-left: 7px;
+    width: 160px;
+    margin-top: 10px;
+}
+#ContentLetLogin a
+{
+    text-align: right;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#ContenletLianJie
+{
+    height: 260px;
+    width: 100%;
+    background-color: #F2F2F2;
+    margin-left: 8px;
+    margin-top: 10px;
+    background-image: url(../images/index-menu.png);
+    background-repeat: no-repeat;
+    background-position: 20px 60px;
+}
+#ui_ida
+{
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#ui_ida li
+{
+    height: 20px;
+    width: 100%;
+    margin-top: 12px;
+    margin-left: 10px;
+    font-size: 13px;
+    color: #777777;
+}
+#ui_ida li a
+{
+    text-decoration: none;
+    color: Black;
+}
+#footer
+{
+    background-color: #3D70B6;
+    padding:20px 0 30px 0;
+    text-align:center;
+    color:#fff;
+    margin-top:10px;
+}
+
+#gonsidong
+{
+    height: 240;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+#gonsidong ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+#gonsidong ul li
+{
+    width: 100px;
+    height: 25px;
+    list-style: none;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 20px 60px;
+    font-weight: bold;
+}
+#dongleft, #dongright
+{
+    height: 208px;
+    width: 100%;
+    clear: both;
+    background-color: #F2F2F2;
+    border-top: 2px solid #343055;
+}
+.leftfirst
+{
+    background-color: #424062;
+    color: White;
+}
+.rightfirst
+{
+    background-color: #424062;
+    color: White;
+}
+.reamd
+{
+    background-color: White;
+}
+.GoosidongColor
+{
+    color: #767676;
+}
+
+#dongleft table tr
+{
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+#dongleft table tr td
+{
+    font-size: 14px;
+    color: #777777;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+#dongleft table tr td a
+{
+    color: #777777;
+    text-decoration: none;
+}
+#IPhone
+{
+    height: 100px;
+    width: 200px;
+    margin: 0px aotu;
+    text-align: center;
+    padding-top: 20px;
+}
+#IPhone img
+{
+    float: none;
+    margin-bottom: 10px;
+}
+#IPhone a
+{
+    text-decoration: none;
+}
+
+#ul_gongsidong li
+{
+    margin: 0px;
+    padding: 0px;
+}
+#ul_gongsidong li a
+{
+    width: 100px;
+    height: 25px;
+    text-decoration: none;
+    color: Black;
+    padding-top: 5px;
+    margin: 0px;
+}
+#deptListUi li a:active
+{
+    color: Black;
+    border: 0px;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+
+#dongright table tr
+{
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+#dongright table tr td
+{
+    font-size: 14px;
+    color: #777777;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+#dongright table tr td a
+{
+    color: #777777;
+    text-decoration: none;
+}
+#dongright table tr td a:hover
+{
+    text-decoration: underline;
+}
+
+#top_ui
+{
+    height: 80%;
+    width: 73%;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+#top_ui li
+{
+    list-style: none;
+    float: left;
+    width: 100px;
+    text-align: center;
+    padding-top: 60px;
+}
+#top_ui li a
+{
+    text-decoration: none;
+    color: White;
+    font-size: 18px;
+}
+#top_ui li a:hover
+{
+    text-decoration: underline;
+}
